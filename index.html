@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title -->
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <button class="start-quiz-btn">Start Quiz</button>
+
+    <!-- Container -->
+    <div class="container hide">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-container">
+          <h2>Quiz App</h2>
+
+          <div class="time-container">
+            <p class="time-title">Kalan Süre</p>
+            <div class="time">0</div>
+          </div>
+        </div>
+
+        <div class="timeline"></div>
+      </header>
+
+      <!-- Quiz Container -->
+      <main class="quiz-container">
+        <h2 class="quiz-title">
+          1-Hangisi JavaScript paket yönetimi uygulamasıdır?
+        </h2>
+
+        <!-- Quiz -->
+        <ul class="quiz-list"></ul>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="count-container">
+          <span class="count">1</span>
+          <span>/</span>
+          <span class="count-length">4</span>
+        </div>
+
+        <button class="next-btn bg-primary hide">Sonraki Soru</button>
+      </footer>
+    </div>
+
+    <div class="total-container hide">
+      <div><i class="fa-solid fa-crown"></i></div>
+
+      <h2 class="total-title"></h2>
+
+      <div>
+        <button class="bg-primary start-btn">Tekrar Başlat</button>
+        <button class="bg-primary finish-btn">Testi Bitir</button>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/8f7b92a547.js"></script>
+  </body>
+</html>
